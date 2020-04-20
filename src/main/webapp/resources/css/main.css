@@ -1,0 +1,242 @@
+@charset "ISO-8859-1";
+
+
+.header-bar
+{
+	height:100px;
+	background-color: #012E5E;
+	padding: 30px 10px 0px;
+}
+
+.footer-bar
+{
+	height:150px;
+	background-color: #012E5E;
+}
+
+.shell
+{
+	max-width:75%;
+	margin: auto;
+	
+}
+
+.main
+{
+	background-color: #CCCCCC;
+	padding: 20px 0;
+	text-align:center;
+	color: #012E5E;
+}
+
+.main h2
+{
+	margin-bottom:20px;
+}
+
+.profile-image
+{
+	width: 30%;
+	background-color: #FFB606;
+	float:left;
+	margin-right:40px;
+}
+
+.profile-image img
+{
+   width:100%;
+}
+
+.profile-description
+{
+	float:left;
+	width:60%;
+	color: #012E5E;
+	text-align:left;
+}
+
+.profile-description h2
+{
+	margin-bottom:20px;
+	
+}
+
+.profile
+{
+	padding:0 20px;
+	margin-bottom:20px;
+}
+
+.profile:after
+{
+	content:'';
+	display:block;
+	clear:both;
+}
+
+.profile-skills
+{
+	padding: 40px 10px 20px 50px;
+	border-radius: 10px;
+	text-align:left;
+	background-color: #FFF;
+	margin-bottom:20px;
+}
+
+.skills-pro
+{
+	float:left;
+	width:48%;
+}
+
+.skills-pro + .skills-pro
+{
+	margin-left:20px;
+}
+
+.profile-skills:after
+{
+	content:'';
+	display:block;
+	clear:both;
+}
+
+.skills-pro h3 
+{
+	margin-bottom: 20px;
+}
+
+.skills-bar
+{
+	height:10px;
+	width:100%;
+	background-color: #FFB606;
+	position:relative;
+}
+
+.skills-bar_top
+{
+	height:10px;
+	width:65%;
+	background-color: #012e5e;
+	position:absolute;
+}
+
+.profile-contacts
+{
+	padding: 20px 10px 20px 50px;
+	border-radius: 10px;
+	text-align:left;
+	background-color: #FFF;
+	
+}
+
+.contacts
+{
+	float:left;
+	width:50%;
+}
+
+.contacts a
+{
+	color:#FFB606;
+}
+
+.profile-contacts:after
+{
+	content:'';
+	display:block;
+	clear:both;
+}
+
+.form
+{
+	color: #012E5E;
+	padding: 0 0 20px;
+	text-align: center;
+}
+
+.form h2
+{
+	
+	margin-bottom: 20px;
+}
+
+.form-group
+{
+
+	margin: auto;
+	padding: 40px 20px 20px;
+	background-color: #FFB606;
+	width:50%;
+	border-radius: 5px;
+}
+
+.form-group label
+{
+	margin-bottom: 10px;
+	display: inline-block;
+	width: 100%;
+
+}
+
+.form-group input
+{
+	width: 100%;
+	margin: 8px 0;
+	margin-bottom: 20px;
+	padding: 12px 20px;
+	display: inline-block;
+	box-sizing: border-box;
+	border:1px solid #ccc;
+	border-radius: 4px;
+	background-color: #f4f4f4;
+}
+
+.form-group .btn
+{	
+	width: 50%;
+	background-color: #012e5e;
+	color: white;
+	padding: 14px 20px;
+	cursor: pointer;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+
+.header-bar a
+{
+	background-color: #FFB606;
+	padding: 10px 5px;
+	color: #012E5E;
+	display:inline-block;
+	text-decoration: none;
+}
+
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:hover {background-color: #ddd;}
+
+table tr td:nth-child(3), table tr th:nth-child(3)
+{
+	width: 60%;
+}
+
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #FFB606;
+  color: #012E5E;
+}
