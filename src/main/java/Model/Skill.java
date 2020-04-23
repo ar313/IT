@@ -1,9 +1,16 @@
 package Model;
 
+import javax.xml.bind.annotation.XmlElement;
+
 public class Skill {
 
 	private String name;
 	private float rating;
+	
+	public Skill()
+	{
+		
+	}
 	
 	public Skill(String name, float rating)
 	{
@@ -20,6 +27,7 @@ public class Skill {
 		
 	}
 	
+	@XmlElement
 	public String getName() {
 		return name;
 	}
@@ -28,6 +36,7 @@ public class Skill {
 		this.name = name;
 	}
 	
+	@XmlElement
 	public float getRating() {
 		return this.rating;
 	}
