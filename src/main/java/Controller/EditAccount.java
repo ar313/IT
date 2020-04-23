@@ -49,7 +49,6 @@ public class EditAccount extends HttpServlet {
 		
 		else if(job!=null)
 		{
-			System.out.println("yes");
 			u1.setJob(job);
 		}
 		

@@ -14,8 +14,7 @@
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
-	
-</head>
+
 <body>
 	<header class="header-bar">
 		<a class="btn" href="index.jsp">Върни се</a>
@@ -51,6 +50,8 @@
 						</span>
 						<span><button class="btn" type="button" >Save</button></span> 
 					</p>
+					
+					<h5 id="msg"></h5>
 					
 				</div>
 			</div>

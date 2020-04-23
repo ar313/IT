@@ -19,7 +19,8 @@ $("document").ready(function()
 						  data: data,
 						})
 						  .done(function( msg ) {
-						    alert( "Data Saved: " + msg );
+							  var t = $("#msg");
+							  t.text(msg); 
 						});
 				}
 			});

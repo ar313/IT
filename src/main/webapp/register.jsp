@@ -17,12 +17,12 @@
 		<a class="btn" href="register">Регистриране</a>
 		<a class="btn" href="users">Потребители</a>
 	</header>
-
+	
 	<form class="form" action="register" method="POST">
 		<h2>
 			Създаване на профил	
 		</h2>
-
+		
 		<div class="form-group">
 			<div class="form-field">
 				<label for="name">Име: </label>

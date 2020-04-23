@@ -43,7 +43,6 @@ public class UserToXml {
 	public static void saveFile() throws Exception
 	{
 		File file = new File(new File(Login.class.getProtectionDomain().getCodeSource().getLocation().getPath()).getParent() + "\\users.xml");
-		System.out.println(file.getAbsolutePath());
 		JAXBContext context= JAXBContext.newInstance(UserDB.class);
 		
 		try 
